@@ -19,7 +19,7 @@ function ButtonWrapper(props) {
 }
 
 export default {
-  title: "Design System/Button",
+  title: "Foundation/Button",
   component: Button,
 };
 
