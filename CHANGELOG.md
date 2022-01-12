@@ -1,3 +1,16 @@
+# v0.1.3 (Wed Jan 12 2022)
+
+#### ⚠️ Pushed to `master`
+
+- merge previous release ([@tandriamanga](https://github.com/tandriamanga))
+- rename DS group ([@tandriamanga](https://github.com/tandriamanga))
+
+#### Authors: 1
+
+- Tojo Antonio Andriamanga ([@tandriamanga](https://github.com/tandriamanga))
+
+---
+
 # v0.1.2 (Wed Jan 12 2022)
 
 #### ⚠️ Pushed to `master`
