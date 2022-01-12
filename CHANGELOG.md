@@ -1,3 +1,15 @@
+# v0.1.2 (Wed Jan 12 2022)
+
+#### ⚠️ Pushed to `master`
+
+- add npm publish CI ([@tandriamanga](https://github.com/tandriamanga))
+
+#### Authors: 1
+
+- Tojo Antonio Andriamanga ([@tandriamanga](https://github.com/tandriamanga))
+
+---
+
 # v0.1.1 (Wed Jan 12 2022)
 
 - Created first version of the design system, with `Avatar`, `Badge`, `Button`, `Icon` and `Link` components.
