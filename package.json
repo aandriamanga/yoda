@@ -1,7 +1,12 @@
 {
-  "name": "yoda",
+  "name": "@aantonio/yoda",
+  "description": "Design System based on Storybook",
   "version": "0.1.0",
-  "private": true,
+  "license": "MIT",
+  "main": "dist/index.js",
+  "repository": "https://github.com/tandriamanga/yoda.git",
+  "author": "aantonio <antonio.andriamanga@gmail.com>",
+  "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
@@ -14,7 +19,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "cross-env BABEL_ENV=production babel src -d dist",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006",
@@ -38,6 +43,20 @@
       }
     ]
   },
+  "babel": {
+    "env": {
+      "production": {
+        "presets": [
+          [
+            "react-app",
+            {
+              "absoluteRuntime": false
+            }
+          ]
+        ]
+      }
+    }
+  },
   "browserslist": {
     "production": [
       ">0.2%",
@@ -51,6 +70,7 @@
     ]
   },
   "devDependencies": {
+    "@babel/cli": "^7.16.8",
     "@storybook/addon-a11y": "^6.4.12",
     "@storybook/addon-actions": "^6.4.12",
     "@storybook/addon-essentials": "^6.4.12",
@@ -64,6 +84,7 @@
     "@storybook/react": "^6.4.12",
     "@storybook/testing-library": "0.0.7",
     "chromatic": "^6.3.4",
+    "cross-env": "^7.0.3",
     "webpack": "^5.65.0"
   }
 }

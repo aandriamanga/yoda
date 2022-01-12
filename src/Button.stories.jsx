@@ -1,7 +1,6 @@
 import React from "react";
 import styled from "styled-components";
 import { userEvent, within } from "@storybook/testing-library";
-import { expect } from "@storybook/jest";
 
 import { Button } from "./Button.jsx";
 import { Icon } from "./Icon";
@@ -340,10 +339,6 @@ WithInteractions.play = async ({ args, canvasElement }) => {
   // Assigns canvas to the component root element
   const canvas = within(canvasElement);
   await userEvent.click(canvas.getByRole("link"));
-  console.log(canvas.getByRole("link"));
-  // await expect(canvas.getByRole("link"))
-  //   .getAttribute("href")
-  //   .toBe("http://storybook.js.org");
 };
 
 WithInteractions.storyName = "button with interactions";
