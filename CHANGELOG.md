@@ -1,3 +1,15 @@
+# v0.1.7 (Thu Jan 13 2022)
+
+#### ⚠️ Pushed to `master`
+
+- update readme ([@tandriamanga](https://github.com/tandriamanga))
+
+#### Authors: 1
+
+- Tojo Antonio Andriamanga ([@tandriamanga](https://github.com/tandriamanga))
+
+---
+
 # v0.1.6 (Thu Jan 13 2022)
 
 #### ⚠️ Pushed to `master`
