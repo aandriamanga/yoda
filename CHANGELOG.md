@@ -1,3 +1,17 @@
+# v0.1.6 (Thu Jan 13 2022)
+
+#### ⚠️ Pushed to `master`
+
+- add babel config ([@tandriamanga](https://github.com/tandriamanga))
+- Merge branch 'master' of github.com:tandriamanga/yoda ([@tandriamanga](https://github.com/tandriamanga))
+- remove unused dependency ([@tandriamanga](https://github.com/tandriamanga))
+
+#### Authors: 1
+
+- Tojo Antonio Andriamanga ([@tandriamanga](https://github.com/tandriamanga))
+
+---
+
 # v0.1.5 (Thu Jan 13 2022)
 
 #### ⚠️ Pushed to `master`
