@@ -14,10 +14,11 @@ Or import directly in the product.
 
     ```shell
     # Install package
-    yarn add -D @aantonio/yoda
+    yarn add @aantonio/yoda
     ```
 
 2.  **Importation in another Storybook.**
+
     In `.storybook/preview.js`
 
     ```JS
