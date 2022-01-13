@@ -15,7 +15,7 @@ Learn more in [Storybook tutorials](https://storybook.js.org/tutorials/).
     cd yoda/
 
     # Install the dependencies
-    yarn add
+    yarn install
     ```
 
 2.  **Run project.**
