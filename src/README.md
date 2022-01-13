@@ -15,7 +15,7 @@ Learn more in [Storybook tutorials](https://storybook.js.org/tutorials/).
     cd yoda/
 
     # Install the dependencies
-    yarn install
+    yarn add
     ```
 
 2.  **Run project.**
@@ -95,9 +95,10 @@ Design System is automatically publish to NPM when we merge on `master` branch.
     git add CHANGELOG.md
     git commit -m "Changelog for vx.x.x [skip ci]"
 
-    # Publish
+    # Build & publish
+    yarn build
     npm --allow-same-version version 0.1.0 -m "Bump version to: %s [skip ci]"
-    npm publish --access=public
+    yarn publish --access=public
 
     #Create release on GitHib with "Auto"
     git push --follow-tags origin main
