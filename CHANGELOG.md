@@ -1,3 +1,15 @@
+# v0.1.5 (Thu Jan 13 2022)
+
+#### ⚠️ Pushed to `master`
+
+- [skip-ci] update readme file ([@tandriamanga](https://github.com/tandriamanga))
+
+#### Authors: 1
+
+- Tojo Antonio Andriamanga ([@tandriamanga](https://github.com/tandriamanga))
+
+---
+
 # v0.1.4 (Thu Jan 13 2022)
 
 #### ⚠️ Pushed to `master`
