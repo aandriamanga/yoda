@@ -17,7 +17,32 @@ Or import directly in the product.
     npm install --save @aantonio/yoda
     ```
 
-2.  **Importation in another Storybook.**
+2.  **Integration in another Storybook.**
+
+    In `.storybook/main.js`
+
+    ```JS
+    module.exports = {
+    stories: ["../src/**/*.stories.mdx", "../src/**/*.stories.@(js|jsx|ts|tsx)"],
+    refs: {
+        "design-system": {
+        title: "YODA",
+        //👇 The url provided by Chromatic when it was deployed
+        url: "https://master--61dec7167fec2d003aa60e29.chromatic.com",
+        },
+    },
+    addons: [
+        "@storybook/addon-links",
+        "@storybook/addon-essentials",
+        "@storybook/preset-create-react-app",
+    ],
+    framework: "@storybook/react",
+    staticDirs: ["../public"],
+    core: {
+        builder: "webpack5",
+    },
+    };
+    ```
 
     In `.storybook/preview.js`
 
@@ -51,7 +76,7 @@ Or import directly in the product.
     };
     ```
 
-3.  **Classical importation.**
+3.  **Importation.**
 
     ```JS
     import { Avatar } from '@aantonio/yoda';
