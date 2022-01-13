@@ -1,3 +1,16 @@
+# v0.1.4 (Thu Jan 13 2022)
+
+#### ⚠️ Pushed to `master`
+
+- Merge branch 'master' of github.com:tandriamanga/yoda ([@tandriamanga](https://github.com/tandriamanga))
+- [skip-ci] update readme file ([@tandriamanga](https://github.com/tandriamanga))
+
+#### Authors: 1
+
+- Tojo Antonio Andriamanga ([@tandriamanga](https://github.com/tandriamanga))
+
+---
+
 # v0.1.3 (Wed Jan 12 2022)
 
 #### ⚠️ Pushed to `master`
