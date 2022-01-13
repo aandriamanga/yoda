@@ -14,7 +14,7 @@ Or import directly in the product.
 
     ```shell
     # Install package
-    yarn add @aantonio/yoda
+    npm install --save @aantonio/yoda
     ```
 
 2.  **Importation in another Storybook.**
