@@ -79,6 +79,9 @@ export function AvatarList({ loading, users, userCount, size, ...props }) {
 }
 
 AvatarList.propTypes = {
+  /**
+   * Are we loading avatar data from the network?
+   */
   loading: PropTypes.bool,
   users: PropTypes.arrayOf(
     PropTypes.shape({
