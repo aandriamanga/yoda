@@ -1,7 +1,7 @@
 {
   "name": "@aantonio/yoda",
   "description": "Design System based on Storybook",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "license": "MIT",
   "main": "dist/index.js",
   "repository": "https://github.com/tandriamanga/yoda.git",
