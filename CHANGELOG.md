@@ -1,3 +1,15 @@
+# v0.1.10 (Fri Jan 14 2022)
+
+#### ⚠️ Pushed to `master`
+
+- prepare shipping AvatarList ([@tandriamanga](https://github.com/tandriamanga))
+
+#### Authors: 1
+
+- Tojo Antonio Andriamanga ([@tandriamanga](https://github.com/tandriamanga))
+
+---
+
 # v0.1.9 (Fri Jan 14 2022)
 
 #### 🐛 Bug Fix
