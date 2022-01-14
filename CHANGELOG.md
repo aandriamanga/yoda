@@ -1,3 +1,15 @@
+# v0.1.9 (Fri Jan 14 2022)
+
+#### 🐛 Bug Fix
+
+- Create avatar list component [#2](https://github.com/tandriamanga/yoda/pull/2) ([@tandriamanga](https://github.com/tandriamanga))
+
+#### Authors: 1
+
+- Tojo Antonio Andriamanga ([@tandriamanga](https://github.com/tandriamanga))
+
+---
+
 # v0.1.8 (Thu Jan 13 2022)
 
 #### ⚠️ Pushed to `master`
