@@ -5,6 +5,20 @@ import { Icon } from "./Icon";
 export default {
   title: "Foundation/Badge",
   component: Badge,
+  argTypes: {
+    status: {
+      control: {
+        type: "select",
+      },
+      options: ["positive", "negative", "neutral", "error"],
+    },
+    icon: {
+      control: {
+        type: "select",
+      },
+      options: ["facehappy", "check"],
+    },
+  },
 };
 
 export const AllBadges = (args) => (
@@ -27,11 +41,26 @@ AllBadges.args = {
 
 AllBadges.storyName = "all badges";
 
-export const Positive = () => <Badge status="positive">Positive</Badge>;
-export const Negative = () => <Badge status="negative">Negative</Badge>;
-export const Warning = () => <Badge status="warning">Warning</Badge>;
-export const Neutral = () => <Badge status="neutral">Neutral</Badge>;
-export const Error = () => <Badge status="error">Error</Badge>;
+export const Positive = (args) => <Badge {...args}>Positive</Badge>;
+export const Negative = (args) => <Badge {...args}>Negative</Badge>;
+export const Warning = (args) => <Badge {...args}>Warning</Badge>;
+export const Neutral = (args) => <Badge {...args}>Neutral</Badge>;
+export const Error = (args) => <Badge {...args}>Error</Badge>;
+Positive.args = {
+  status: "positive",
+};
+Negative.args = {
+  status: "negative",
+};
+Warning.args = {
+  status: "warning",
+};
+Neutral.args = {
+  status: "neutral",
+};
+Error.args = {
+  status: "error",
+};
 
 export const WithIcon = (args) => (
   <Badge {...args}>
