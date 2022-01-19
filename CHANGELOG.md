@@ -1,3 +1,15 @@
+# v0.1.11 (Wed Jan 19 2022)
+
+#### ⚠️ Pushed to `master`
+
+- permit status selection ([@tandriamanga](https://github.com/tandriamanga))
+
+#### Authors: 1
+
+- Tojo Antonio Andriamanga ([@tandriamanga](https://github.com/tandriamanga))
+
+---
+
 # v0.1.10 (Fri Jan 14 2022)
 
 #### ⚠️ Pushed to `master`
